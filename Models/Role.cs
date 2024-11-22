@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dulces_Momentos.Models;
 
-[Table("rols")]
-public class Rol
+[Table("roles")]
+public class Role
 {
     [Key]
     [Column("id")]
@@ -21,12 +21,12 @@ public class Rol
     public string Description { get; set; }
 
 
-    public Rol()
+    public Role()
     {
         
     }
 
-    public Rol(string name, string description)
+    public Role(string name, string description)
     {
         Name = name;
         Description = description;
