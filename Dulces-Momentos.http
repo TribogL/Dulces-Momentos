@@ -1,0 +1,6 @@
+@Dulces_Momentos_HostAddress = http://localhost:5285
+
+GET {{Dulces_Momentos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
